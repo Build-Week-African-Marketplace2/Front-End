@@ -45,20 +45,16 @@ describe("Submit", () => {
           .should("have.value", "temtseloch")
     })
 
-    it("can type the email", () => {
-        cy.get("input[name=email]")
-          .type("temkalways@gmail.com")
-          .should("have.value", "temkalways@gmail.com")
-    })
-
     it("can type the password", () => {
         cy.get("input[name=password")
           .type("thisIsPassword")
           .should("have.value", "thisIsPassword")
     })
 
-    it("can check the checkbox", () => {
-        cy.get("input[name=terms]").click()
+    it("can type the name", () => {
+        cy.get("input[name=name]")
+          .type("Temtsel-Och Ulziisaikhan")
+          .should("have.value", "Temtsel-Och Ulziisaikhan")
     })
 
     it("can submit the register form", () => {
