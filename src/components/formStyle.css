@@ -1,0 +1,11 @@
+.base-container{
+    width: 100%;
+}
+
+
+
+.form input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}

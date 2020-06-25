@@ -1,0 +1,73 @@
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background: rgb(19,19,18);
+    background: linear-gradient(90deg, rgba(19,19,18,0.7960119047619048) 0%, rgba(0,0,0,1) 100%);
+    margin-bottom: 100px;
+    }
+    
+    .twitter{
+    width: 5%;
+    height: 5%;
+    }
+    .twitter:hover{
+    color: tomato;
+    }
+    .logo{
+        color: white;
+        margin-right: 40%;
+        margin-left: 10%;
+        font-family: cursive;
+        font-size: 2rem;
+    }
+    #reddot{
+        color: tomato;
+    }
+    .navbar-content{
+        width: 40%;
+        font-size: 0.9rem;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .navbar-content a{
+    padding-left: 5%;
+    text-decoration: none;
+    color: white;
+    }
+    
+
+    .link:hover{
+        color: tomato;
+    }
+    
+    
+    
+    @media (max-width: 1000px){
+        #navigation{
+            max-width: 400px;
+            position: static;
+            display: grid;
+            padding-left:20%;
+            padding-top: 0;
+            padding-bottom: 0;
+            }
+            .logo{
+                visibility: hidden;
+            }
+            .navbar-content{
+                width: 100%;
+            }
+            .twitter{
+                height: 3%;
+                width: 3%;
+            }
+    }
+    @media (max-width: 1000px){
+        #navigation{
+            max-width: 80%;
+     
+            }
+    }
