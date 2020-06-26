@@ -1,9 +1,11 @@
 [build]
-base = "african-marketplace/"
-publish = "/build/"
-command = "npm build"
+base = "web/"
+publish = "public/
+command = "npm run build"
 
 [[redirects]]
 from = "/*"
 to = "/index.html"
 status = 200
+
+
