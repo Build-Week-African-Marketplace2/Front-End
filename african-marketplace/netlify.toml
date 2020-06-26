@@ -1,5 +1,5 @@
 [build]
-base = "african-marketplace/adriana-toledo"
+base = "african-marketplace/"
 publish = "/build/"
 command = "npm build"
 
