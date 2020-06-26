@@ -1,7 +1,7 @@
 [build]
 base = "african-marketplace/adriana-toledo"
 publish = "/build/"
-command = "npm run-script build"
+command = "npm build"
 
 [[redirects]]
 from = "/*"
